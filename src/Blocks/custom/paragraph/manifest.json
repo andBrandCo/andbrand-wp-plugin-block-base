@@ -1,0 +1,51 @@
+{
+	"$schema": "https://raw.githubusercontent.com/infinum/eightshift-frontend-libs/develop/schemas/block.json",
+	"blockName": "paragraph",
+	"title": "Paragraph",
+	"description" : "Paragraph block with custom settings.",
+	"category": "eightshift",
+	"icon": {
+		"src": "es-paragraph"
+	},
+	"keywords": [
+		"paragraph",
+		"text",
+		"content"
+	],
+	"example": {
+		"attributes": {
+			"paragraphAlign": "left"
+		}
+	},
+	"attributes": {
+		"paragraphAlign": {
+			"type": "string",
+			"default": "left"
+		}
+	},
+	"options": {
+		"paragraphAlign": [
+			"left",
+			"center",
+			"right"
+		]
+	},
+	"components": {
+		"paragraph": "paragraph"
+	},
+	"mergeableAttributes": [
+		{
+			"attribute": "paragraphParagraphContent",
+			"mergeStrategy": "append"
+		}
+	],
+	"variables": {
+		"paragraphAlign": [
+			{
+				"variable": {
+					"block-paragraph-align": "%value%"
+				}
+			}
+		]
+	}
+}
