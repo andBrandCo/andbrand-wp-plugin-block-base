@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "58f9d5617e98e2a70eefbb92622e8bf2",
+    "content-hash": "c905d97e86d152a0059a62f962f76bf6",
     "packages": [
         {
             "name": "infinum/eightshift-libs",
-            "version": "6.0.0",
+            "version": "5.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/infinum/eightshift-libs.git",
-                "reference": "2152c14b1d2a904436c90e5632bf1ae04ee337eb"
+                "reference": "585e4dc07a0f2a8c81c502da915a901752302831"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/infinum/eightshift-libs/zipball/2152c14b1d2a904436c90e5632bf1ae04ee337eb",
-                "reference": "2152c14b1d2a904436c90e5632bf1ae04ee337eb",
+                "url": "https://api.github.com/repos/infinum/eightshift-libs/zipball/585e4dc07a0f2a8c81c502da915a901752302831",
+                "reference": "585e4dc07a0f2a8c81c502da915a901752302831",
                 "shasum": ""
             },
             "require": {
@@ -30,9 +30,8 @@
             },
             "require-dev": {
                 "brain/monkey": "^2.6",
-                "captainhook/captainhook": "^5.10",
                 "dealerdirect/phpcodesniffer-composer-installer": "^0.7",
-                "infinum/eightshift-coding-standards": "^1.6",
+                "infinum/eightshift-coding-standards": "^1.5",
                 "pestphp/pest": "^1.2",
                 "php-stubs/wordpress-stubs": "^5.9",
                 "phpunit/phpunit": "^9.5",
@@ -77,7 +76,7 @@
                 "issues": "https://github.com/infinum/eightshift-libs/issues",
                 "source": "https://github.com/infinum/eightshift-libs"
             },
-            "time": "2022-07-12T07:01:22+00:00"
+            "time": "2022-05-09T10:45:10+00:00"
         },
         {
             "name": "laravel/serializable-closure",
