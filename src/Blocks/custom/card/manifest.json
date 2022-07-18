@@ -3,7 +3,7 @@
 	"blockName": "card",
 	"title": "Card",
 	"description" : "Card with custom settings.",
-	"category": "eightshift",
+	"category": "andbrand-block-library",
 	"icon": {
 		"src": "es-card"
 	},

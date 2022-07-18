@@ -1,6 +1,5 @@
 {
-	"$schema": "https://raw.githubusercontent.com/infinum/eightshift-frontend-libs/develop/schemas/globalManifest.json",
-	"namespace": "eightshift-boilerplate",
+	"namespace": "andbrand-block-library",
 	"background": "#FBF9FF",
 	"foreground": "#9973E3",
 	"config": {
@@ -14,7 +13,7 @@
 		"useWrapper": true
 	},
 	"globalVariables": {
-		"customBlocksName": "eightshift-block",
+		"customBlocksName": "andbrand-plugin-block",
 		"maxCols": 12,
 		"baseFont": "Inter",
 		"zIndex": {

@@ -3,7 +3,7 @@
 	"blockName": "heading",
 	"title": "Heading",
 	"description" : "Heading block with custom settings.",
-	"category": "eightshift",
+	"category": "andbrand-block-library",
 	"icon": {
 		"src": "es-heading"
 	},
