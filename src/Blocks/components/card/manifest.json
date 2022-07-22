@@ -1,0 +1,51 @@
+{
+	"$schema": "https://raw.githubusercontent.com/infinum/eightshift-frontend-libs/develop/schemas/component.json",
+	"componentName": "card",
+	"title": "Card",
+	"componentClass": "card-simple",
+	"example": {
+		"attributes": {
+			"cardIntroContent": "This is intro",
+			"cardIntroSize": "small",
+			"cardIntroColor": "light",
+			"cardAlign": "left"
+		}
+	},
+	"attributes": {
+		"cardAlign": {
+			"type": "string",
+			"default": "left"
+		},
+		"cardIntroSize": {
+			"type": "string",
+			"default": "tiny"
+		},
+		"cardHeadingSize": {
+			"type": "string",
+			"default": "big"
+		}
+	},
+	"options": {
+		"cardAlign": [
+			"left",
+			"center",
+			"right"
+		]
+	},
+	"components": {
+		"image": "image",
+		"intro": "heading",
+		"heading": "heading",
+		"paragraph": "paragraph",
+		"button": "button"
+	},
+	"variables": {
+		"cardAlign": [
+			{
+				"variable": {
+					"block-card-align": "%value%"
+				}
+			}
+		]
+	}
+}

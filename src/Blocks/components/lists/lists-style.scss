@@ -1,0 +1,33 @@
+.lists {
+	margin: 0;
+	padding-left: 0;
+	color: var(--lists-text-color, var(--lists-color, var(--global-colors-black, currentColor)));
+	font-size: var(--lists-font-size, 1rem);
+	line-height: var(--lists-line-height, 1.5);
+
+	li {
+		margin-left: 1.1rem;
+		overflow-wrap: anywhere;
+
+		&::marker {
+			color: var(--lists-marker-color, currentColor);
+		}
+	}
+
+	a {
+		cursor: pointer;
+		text-decoration: underline;
+		color: var(--lists-link-color, var(--global-colors-primary, #5555CE));
+		text-decoration-color: var(--lists-link-color, var(--global-colors-primary, #5555CE));
+
+		transition: {
+			property: color;
+			timing-function: ease-in;
+			duration: 0.3s;
+		}
+
+		&:hover {
+			color: var(--lists-link-color-hover, var(--global-colors-yellow, #FFDD48));
+		}
+	}
+}

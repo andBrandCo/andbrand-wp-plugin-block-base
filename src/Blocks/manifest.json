@@ -1,0 +1,116 @@
+{
+	"namespace": "andbrand-block-library",
+	"background": "#FBF9FF",
+	"foreground": "#9973E3",
+	"config": {
+		"outputCssGlobally": true,
+		"outputCssOptimize": true,
+		"outputCssSelectorName": "esCssVariables",
+		"outputCssGloballyAdditionalStyles": [
+			":root {--es-loader-opacity: 1;}"
+		],
+		"useRemBaseSize": false,
+		"useWrapper": true
+	},
+	"globalVariables": {
+		"customBlocksName": "andbrand-plugin-block",
+		"maxCols": 12,
+		"baseFont": "Inter",
+		"zIndex": {
+			"header": 100,
+			"drawer": 99,
+			"overlay": 98
+		},
+		"breakpoints": {
+			"mobile": 480,
+			"tablet": 960,
+			"desktop": 1920,
+			"large": 1921
+		},
+		"containers": {
+			"default": "66rem"
+		},
+		"gutters": {
+			"none": "0",
+			"default": "1.25rem",
+			"big": "2.5rem"
+		},
+		"sectionSpacing": {
+			"min":  -300,
+			"max":  300,
+			"step": 10
+		},
+		"sectionInSpacing": {
+			"min":  0,
+			"max":  300,
+			"step": 10
+		},
+		"colors": [
+			{
+				"name": "Primary",
+				"slug": "primary",
+				"color": "#6200EA"
+			},
+			{
+				"name": "Black",
+				"slug": "black",
+				"color": "#000000"
+			},
+			{
+				"name": "Light",
+				"slug": "light",
+				"color": "#CCCCCC"
+			},
+			{
+				"name": "White",
+				"slug": "white",
+				"color": "#FFFFFF"
+			},
+			{
+				"name": "Ocean",
+				"slug": "ocean",
+				"color": "#00B8D4"
+			},
+			{
+				"name": "Green",
+				"slug": "green",
+				"color": "#00E676"
+			},
+			{
+				"name": "Red",
+				"slug": "red",
+				"color": "#B30024"
+			},
+			{
+				"name": "Yellow",
+				"slug": "yellow",
+				"color": "#FFEA00"
+			},
+			{
+				"name": "Blue",
+				"slug": "blue",
+				"color": "#0040F0"
+			},
+			{
+				"name": "Mist",
+				"slug": "mist",
+				"color": "#F1FBFE"
+			},
+			{
+				"name": "Dew",
+				"slug": "dew",
+				"color": "#FAF8FC"
+			},
+			{
+				"name": "Cream",
+				"slug": "cream",
+				"color": "#FFFBF5"
+			},
+			{
+				"name": "Eightshift",
+				"slug": "eightshift",
+				"color": "#0D3636"
+			}
+		]
+	}
+}

@@ -1,0 +1,259 @@
+{
+	"$schema": "https://raw.githubusercontent.com/infinum/eightshift-frontend-libs/develop/schemas/component.json",
+	"componentName": "button",
+	"title": "Button",
+	"componentClass": "btn",
+	"example": {
+		"attributes": {
+			"buttonContent": "This is a button",
+			"buttonUrl": "https://infinum.github.io/eightshift-docs/",
+			"buttonId": "custom ID"
+		}
+	},
+	"attributes": {
+		"buttonContent": {
+			"type": "string"
+		},
+		"buttonUrl": {
+			"type": "string"
+		},
+		"buttonId": {
+			"type": "string"
+		},
+		"buttonSize": {
+			"type": "string",
+			"default": "default"
+		},
+		"buttonColor": {
+			"type": "string",
+			"default": "primary"
+		},
+		"buttonWidth": {
+			"type": "string",
+			"default": "default"
+		},
+		"buttonIsAnchor": {
+			"type": "boolean",
+			"default": false
+		},
+		"buttonIsNewTab": {
+			"type": "boolean",
+			"default": false
+		},
+		"buttonAttrs": {
+			"type": "array"
+		},
+		"buttonAriaLabel": {
+			"type": "string"
+		},
+		"buttonIsLink": {
+			"type": "boolean",
+			"default": false
+		},
+		"buttonUse": {
+			"type": "boolean",
+			"default": true
+		}
+	},
+	"options": {
+		"buttonSize": [
+			{
+				"label": "Default",
+				"value": "default",
+				"icon": "checkCircle"
+			},
+			{
+				"label": "Big",
+				"value": "big",
+				"icon": "arrowsRightDiagonal"
+			}
+		],
+		"buttonWidth": [
+			{
+				"label": "Default",
+				"value": "default",
+				"icon": "checkCircle"
+			},
+			{
+				"label": "Block",
+				"value": "block",
+				"icon": "arrowsHorizontal"
+			}
+		],
+		"buttonColor": [
+			"primary",
+			"black",
+			"blue",
+			"yellow",
+			"ocean",
+			"green",
+			"red",
+			"white"
+		]
+	},
+	"variables": {
+		"buttonColor": {
+			"primary": [
+				{
+					"variable": {
+						"button-color": "var(--global-colors-white)",
+						"button-color-hover": "var(--global-colors-white)",
+						"button-background-color": "var(--global-colors-primary)",
+						"button-background-color-hover": "var(--global-colors-black)",
+						"button-color-is-link": "var(--global-colors-primary)",
+						"button-color-is-link-hover": "var(--global-colors-black)"
+					}
+				}
+			],
+			"black": [
+				{
+					"variable": {
+						"button-color": "var(--global-colors-white)",
+						"button-color-hover": "var(--global-colors-white)",
+						"button-background-color": "var(--global-colors-black)",
+						"button-background-color-hover": "var(--global-colors-primary)",
+						"button-color-is-link": "var(--global-colors-black)",
+						"button-color-is-link-hover": "var(--global-colors-primary)"
+					}
+				}
+			],
+			"blue": [
+				{
+					"variable": {
+						"button-color": "var(--global-colors-white)",
+						"button-color-hover": "var(--global-colors-white)",
+						"button-background-color": "var(--global-colors-blue)",
+						"button-background-color-hover": "var(--global-colors-black)",
+						"button-color-is-link": "var(--global-colors-blue)",
+						"button-color-is-link-hover": "var(--global-colors-black)"
+					}
+				}
+			],
+			"yellow": [
+				{
+					"variable": {
+						"button-color": "var(--global-colors-black)",
+						"button-color-hover": "var(--global-colors-white)",
+						"button-background-color": "var(--global-colors-yellow)",
+						"button-background-color-hover": "var(--global-colors-black)",
+						"button-color-is-link": "var(--global-colors-yellow)",
+						"button-color-is-link-hover": "var(--global-colors-black)"
+					}
+				}
+			],
+			"ocean": [
+				{
+					"variable": {
+						"button-color": "var(--global-colors-black)",
+						"button-color-hover": "var(--global-colors-white)",
+						"button-background-color": "var(--global-colors-ocean)",
+						"button-background-color-hover": "var(--global-colors-black)",
+						"button-color-is-link": "var(--global-colors-ocean)",
+						"button-color-is-link-hover": "var(--global-colors-black)"
+					}
+				}
+			],
+			"green": [
+				{
+					"variable": {
+						"button-color": "var(--global-colors-black)",
+						"button-color-hover": "var(--global-colors-white)",
+						"button-background-color": "var(--global-colors-green)",
+						"button-background-color-hover": "var(--global-colors-black)",
+						"button-color-is-link": "var(--global-colors-green)",
+						"button-color-is-link-hover": "var(--global-colors-black)"
+					}
+				}
+			],
+			"red": [
+				{
+					"variable": {
+						"button-color": "var(--global-colors-white)",
+						"button-color-hover": "var(--global-colors-white)",
+						"button-background-color": "var(--global-colors-red)",
+						"button-background-color-hover": "var(--global-colors-black)",
+						"button-color-is-link": "var(--global-colors-red)",
+						"button-color-is-link-hover": "var(--global-colors-black)"
+					}
+				}
+			],
+			"white": [
+				{
+					"variable": {
+						"button-color": "var(--global-colors-black)",
+						"button-color-hover": "var(--global-colors-white)",
+						"button-background-color": "var(--global-colors-white)",
+						"button-background-color-hover": "var(--global-colors-yellow)",
+						"button-color-is-link": "var(--global-colors-white)",
+						"button-color-is-link-hover": "var(--global-colors-yellow)"
+					}
+				}
+			]
+		},
+		"buttonSize": {
+			"default": [
+				{
+					"variable": {
+						"button-font-size": "0.8rem",
+						"button-line-height": "1.4"
+					}
+				},
+				{
+					"breakpoint": "tablet",
+					"variable": {
+						"button-font-size": "1rem"
+					}
+				}
+			],
+			"big": [
+				{
+					"variable": {
+						"button-font-size": "1rem",
+						"button-line-height": "1.4"
+					}
+				},
+				{
+					"breakpoint": "tablet",
+					"variable": {
+						"button-font-size": "1.2rem"
+					}
+				}
+			]
+		},
+		"buttonWidth": {
+			"default": [
+				{
+					"variable": {
+						"button-display": "inline-flex",
+						"button-width": "auto"
+					}
+				}
+			],
+			"block": [
+				{
+					"variable": {
+						"button-display": "flex",
+						"button-width": "100%"
+					}
+				}
+			]
+		},
+		"buttonIsLink": {
+			"true": [
+				{
+					"variable": {
+						"button-border-radius": "0",
+						"button-background-color": "transparent",
+						"button-background-color-hover": "transparent",
+						"button-padding-horizontal": "0",
+						"button-padding-vertical": "0",
+						"button-color": "var(--button-color-is-link)",
+						"button-color-hover": "var(--button-color-is-link-hover)",
+						"button-display": "inline-flex",
+						"button-width": "auto"
+					}
+				}
+			]
+		}
+	}
+}

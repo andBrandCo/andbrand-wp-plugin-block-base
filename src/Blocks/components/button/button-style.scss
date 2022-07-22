@@ -1,0 +1,48 @@
+.btn {
+	display: var(--button-display, inline-flex);
+	align-items: center;
+	justify-content: center;
+
+	width: var(--button-width, auto);
+
+	padding: var(--button-padding-vertical, 0.6rem) var(--button-padding-horizontal, 1.5rem);
+
+	border: none;
+	border-radius: var(--button-border-radius, 5rem);
+
+	opacity: var(--button-opacity, 1);
+	color: var(--button-scoped-color, var(--button-color, var(--global-colors-white)));
+	background-color: var(--button-scoped-background-color, var(--button-background-color, var(--global-colors-primary)));
+
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	font-size: var(--button-font-size);
+	line-height: var(--button-line-height, 1);
+
+	cursor: var(--button-cursor, pointer);
+
+	transition: {
+		property: background-color, color, border-color;
+		timing-function: ease-out;
+		duration: 0.3s;
+	}
+
+	&:hover {
+		--button-scoped-color: var(--button-color-hover, var(--global-colors-white));
+		--button-scoped-background-color: var(--button-background-color-hover, var(--global-colors-black));
+	}
+
+	&:disabled {
+		--button-scoped-background-color: var(--global-colors-light);
+		--button-cursor: not-allowed;
+	}
+
+	&:focus {
+		outline: {
+			color: var(--button-outline-focus-color, var(--button-scoped-background-color, var(--button-background-color, var(--global-colors-primary))));
+			style: var(--button-outline-focus-style, dotted);
+			width: var(--button-outline-focus-width, 0.25rem);
+		}
+	}
+}

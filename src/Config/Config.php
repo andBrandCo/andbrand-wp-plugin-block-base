@@ -27,7 +27,11 @@ class Config extends AbstractConfigData
 	 */
 	public static function getProjectName(): string
 	{
+<<<<<<< HEAD
 		return 'eightshift-libs';
+=======
+		return 'andbrand-wp-plugin-block-base';
+>>>>>>> @{-1}
 	}
 
 	/**
