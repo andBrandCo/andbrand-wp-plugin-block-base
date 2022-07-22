@@ -45,10 +45,6 @@ class Manifest extends AbstractManifest
 	 */
 	public function getManifestFilePath(): string
 	{
-
-		echo '<pre>';
-		print_r(Config::getProjectPath() . '/public/manifest.json');
-		echo '</pre>';
 		return Config::getProjectPath() . '/public/manifest.json';
 	}
 }
