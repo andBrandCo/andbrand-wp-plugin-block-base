@@ -22,9 +22,6 @@ class Components extends LibsComponents
      */
     public static function render(string $component, array $attributes = [], string $parentPath = '', bool $useComponentDefaults = false): string
     {
-        echo '<pre>';
-        print_r(Config::getProjectPath());
-        echo '</pre>';
         $parentPath = Config::getProjectPath();
 
         return parent::render($component, $attributes, $parentPath, $useComponentDefaults);

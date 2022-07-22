@@ -120,8 +120,6 @@ class Blocks extends AbstractBlocks
 				],
 			]
 		);
-
-		 $block_categories;
 	}
 
 
