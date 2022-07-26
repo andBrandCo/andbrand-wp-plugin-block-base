@@ -49,9 +49,9 @@ class Blocks extends AbstractBlocks
 
 		// Create new custom category for custom blocks.
 		if (\is_wp_version_compatible('5.8')) {
-			\add_filter('block_categories_all', [$this, 'getCustomCategory'], 11, 2);
+			\add_filter('block_categories_all', [$this, 'andBrandGetCustomCategory'], 11, 2);
 		} else {
-			\add_filter('block_categories', [$this, 'getCustomCategoryOld'], 10, 2);
+			\add_filter('block_categories', [$this, 'getCustomCategoryOld'], 11, 2);
 		}
 
 		// Register custom theme support options.
@@ -104,12 +104,13 @@ class Blocks extends AbstractBlocks
 	 * @hook block_categories_all Available from WP 5.8.
 	 *
 	 * @param array<array<string, mixed>> $block_categories Array of categories for block types.
-	 * @param WP_Block_Editor_Context $blockEditorContext The current block editor context.
+	 * @param \WP_Block_Editor_Context $blockEditorContext The current block editor context. Removed due to error with FSE WP 6.0
 	 *
 	 * @return array<array<string, mixed>> Array of categories for block types.
 	 */
-	public function getCustomCategory(array $block_categories, \WP_Block_Editor_Context $blockEditorContext): array
+	public function andBrandGetCustomCategory(array $block_categories): array
 	{
+		
 		return \array_merge(
 			$block_categories,
 			[
