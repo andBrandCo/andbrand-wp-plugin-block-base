@@ -1,0 +1,22 @@
+.block-column {
+	display: flex;
+	width: 100%;
+	opacity: var(--column-opacity, 1);
+	transform: var(--column-transform);
+
+	transition: {
+		// stylelint-disable-next-line declaration-no-important
+		property: opacity, transform !important;
+		timing-function: ease-out;
+		duration: 0.3s;
+	}
+}
+
+.button-group__label {
+	display: block;
+	margin-bottom: 0.3rem;
+}
+
+.button-group__label + * {
+	margin-bottom: 0.4rem;
+}

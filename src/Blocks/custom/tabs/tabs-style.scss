@@ -1,0 +1,8 @@
+@import './styles/shared';
+
+.block-tabs {
+	&__panel-item-button {
+		@extend %button-reset;
+		background: none;
+	}
+}

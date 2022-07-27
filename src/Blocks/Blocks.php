@@ -49,7 +49,7 @@ class Blocks extends AbstractBlocks
 
 		// Create new custom category for custom blocks.
 		if (\is_wp_version_compatible('5.8')) {
-			\add_filter('block_categories_all', [$this, 'getCustomCategory'], 11, 2);
+			\add_filter('block_categories_all', [$this, 'andBrandGetCustomCategory'], 11, 2);
 		} else {
 			\add_filter('block_categories', [$this, 'getCustomCategoryOld'], 10, 2);
 		}
@@ -108,17 +108,31 @@ class Blocks extends AbstractBlocks
 	 *
 	 * @return array<array<string, mixed>> Array of categories for block types.
 	 */
-	public function getCustomCategory(array $block_categories, \WP_Block_Editor_Context $blockEditorContext): array
+	public function andBrandGetCustomCategory(array $block_categories): array
 	{
 		return \array_merge(
 			$block_categories,
 			[
 				[
-					'slug' => 'andbrand-block-library',
-					'title' => \esc_html__('andBRAND Block Library [compounds]', 'andbrand-plugin-block-library'),
+					'slug' => 'andbrand-block-library-layout',
+					'title' => \esc_html__('andBRAND Block Library [Layout]', 'andbrand-plugin-block-library'),
 					'icon' => 'admin-settings',
 				],
-			]
+			],
+			[
+				[
+					'slug' => 'andbrand-block-library-molecules',
+					'title' => \esc_html__('andBRAND Block Library [Molecules]', 'andbrand-plugin-block-library'),
+					'icon' => 'admin-settings',
+				],
+			],
+			[
+				[
+					'slug' => 'andbrand-block-library-compounds',
+					'title' => \esc_html__('andBRAND Block Library [Compounds]', 'andbrand-plugin-block-library'),
+					'icon' => 'admin-settings',
+				],
+			],
 		);
 	}
 
