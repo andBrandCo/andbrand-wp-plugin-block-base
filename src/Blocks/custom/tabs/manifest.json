@@ -1,0 +1,28 @@
+{
+	"blockName": "tabs",
+	"title": "Tabs",
+	"tabClass": "block-tab",	
+	"description" : "Simple tabs block",
+	"category": "andbrand-block-library-compounds",
+	"icon": {
+		"src": "es-tabs"
+	},
+	"keywords": [
+		"tabs"
+	],
+	"hasInnerBlocks": true,
+	"attributes": {
+		"tabsAllowedBlocks": {
+			"type": "array",
+			"items": {
+				"type": "string"
+			},
+			"default": [
+				"andbrand-block-library/tab"
+			]
+		},
+		"tabsCurrentlyActiveTabId": {
+			"type": "string"
+		}
+	}
+}

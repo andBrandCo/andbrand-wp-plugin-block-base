@@ -1,0 +1,33 @@
+.loader {
+	--loader-color-1: var(--loader-primary, var(--global-colors-primary, currentColor));
+	--loader-color-2: var(--loader-secondary, var(--global-colors-black, currentColor));
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	svg {
+		height: 5rem;
+		width: 5rem;
+	}
+
+	&--use-overlay {
+		--loader-color-2: var(--global-colors-white);
+
+		position: absolute;
+		top: 0;
+		left: 0;
+
+		width: 100%;
+		height: 100%;
+
+		z-index: 100;
+
+		background-color: rgba(16 16 16 / 0.9); // stylelint-disable-line alpha-value-notation
+		color: var(--global-colors-white);
+
+		@supports (backdrop-filter: blur(10px)) {
+			backdrop-filter: blur(10px);
+		}
+	}
+}

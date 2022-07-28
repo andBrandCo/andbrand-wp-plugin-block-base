@@ -1,16 +1,14 @@
 {
 	"$schema": "https://raw.githubusercontent.com/infinum/eightshift-frontend-libs/develop/schemas/block.json",
-	"blockName": "group",
-	"title": "Group",
-	"description" : "Group block used to grouping multiple blocks.",
-	"category": "andbrand-block-library-layout",
+	"blockName": "accordion",
+	"title": "Accordion",
+	"description" : "Accordion block with custom settings.",
+	"category": "andbrand-block-library-compounds",
 	"icon": {
-		"src": "es-group"
+		"src": "es-accordion"
 	},
 	"keywords": [
-		"container",
-		"section",
-		"group"
+		"accordion"
 	],
 	"example": {
 		"innerBlocks": [
@@ -28,5 +26,8 @@
 			}
 		]
 	},
-	"hasInnerBlocks": true
+	"hasInnerBlocks": true,
+	"components": {
+		"accordion": "accordion"
+	}
 }

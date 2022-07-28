@@ -1,0 +1,20 @@
+@import './styles/shared';
+
+.block-tabs {
+	&__panel-item {
+			transition: {
+				property: all;
+				timing-function: ease-out;
+				duration: 0.3s;
+			}
+		}
+	&__panel-item-button {
+		@extend %button-reset;
+		background: none;
+		transition: {
+			property: all;
+			timing-function: ease-out;
+			duration: 0.3s;
+		}
+	}
+}

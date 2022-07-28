@@ -115,11 +115,25 @@ class Blocks extends AbstractBlocks
 			$block_categories,
 			[
 				[
-					'slug' => 'andbrand-block-library',
-					'title' => \esc_html__('andBRAND Block Library [compounds]', 'andbrand-plugin-block-library'),
+					'slug' => 'andbrand-block-library-layout',
+					'title' => \esc_html__('andBRAND Block Library [Layout]', 'andbrand-plugin-block-library'),
 					'icon' => 'admin-settings',
 				],
-			]
+			],
+			[
+				[
+					'slug' => 'andbrand-block-library-molecules',
+					'title' => \esc_html__('andBRAND Block Library [Molecules]', 'andbrand-plugin-block-library'),
+					'icon' => 'admin-settings',
+				],
+			],
+			[
+				[
+					'slug' => 'andbrand-block-library-compounds',
+					'title' => \esc_html__('andBRAND Block Library [Compounds]', 'andbrand-plugin-block-library'),
+					'icon' => 'admin-settings',
+				],
+			],
 		);
 	}
 
