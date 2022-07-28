@@ -3,10 +3,10 @@
 /**
  * Load More component.
  *
- * @package AndbrandWpPluginBlockBase
+ * @package SebCmWpPluginBlockLibrary
  */
 
-use AndbrandWpPluginBlockBasePluginVendor\EightshiftLibs\Helpers\Components;
+use SebCmWpPluginBlockLibraryPluginVendor\EightshiftLibs\Helpers\Components;
 
 $manifest = Components::getManifest(__DIR__);
 $componentName = $attributes['componentName'] ?? $manifest['componentName'];

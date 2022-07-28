@@ -3,7 +3,7 @@
 	"blockName": "group",
 	"title": "Group",
 	"description" : "Group block used to grouping multiple blocks.",
-	"category": "andbrand-block-library-layout",
+	"category": "seb-block-library-layout",
 	"icon": {
 		"src": "es-group"
 	},

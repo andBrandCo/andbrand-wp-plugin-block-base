@@ -3,7 +3,7 @@
 /**
  * Tracking codes Before body end
  *
- * @package AndbrandWpPluginBlockBase
+ * @package SebCmWpPluginBlockLibrary
  */
 
 // Add Before body end hooks here.

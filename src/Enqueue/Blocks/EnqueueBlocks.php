@@ -3,16 +3,16 @@
 /**
  * Enqueue class used to define all script and style enqueues for Gutenberg blocks.
  *
- * @package AndbrandWpPluginBlockBase\Enqueue\Blocks
+ * @package SebCmWpPluginBlockLibrary\Enqueue\Blocks
  */
 
 declare(strict_types=1);
 
-namespace AndbrandWpPluginBlockBase\Enqueue\Blocks;
+namespace SebCmWpPluginBlockLibrary\Enqueue\Blocks;
 
-use AndbrandWpPluginBlockBase\Config\Config;
-use AndbrandWpPluginBlockBasePluginVendor\EightshiftLibs\Manifest\ManifestInterface;
-use AndbrandWpPluginBlockBasePluginVendor\EightshiftLibs\Enqueue\Blocks\AbstractEnqueueBlocks;
+use SebCmWpPluginBlockLibrary\Config\Config;
+use SebCmWpPluginBlockLibraryPluginVendor\EightshiftLibs\Manifest\ManifestInterface;
+use SebCmWpPluginBlockLibraryPluginVendor\EightshiftLibs\Enqueue\Blocks\AbstractEnqueueBlocks;
 
 /**
  * Enqueue_Blocks class.

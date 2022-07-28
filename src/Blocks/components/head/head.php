@@ -3,10 +3,10 @@
 /**
  * Head section for meta data
  *
- * @package AndbrandWpPluginBlockBase
+ * @package SebCmWpPluginBlockLibrary
  */
 
-use AndbrandWpPluginBlockBasePluginVendor\EightshiftLibs\Helpers\Components;
+use SebCmWpPluginBlockLibraryPluginVendor\EightshiftLibs\Helpers\Components;
 
 $globalManifest = Components::getManifest(dirname(__DIR__, 2));
 $manifest = Components::getManifest(__DIR__);

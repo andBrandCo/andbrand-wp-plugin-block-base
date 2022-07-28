@@ -4,14 +4,14 @@
  * Class Blocks is the base class for Gutenberg blocks registration.
  * It provides the ability to register custom blocks using manifest.json.
  *
- * @package AndbrandWpPluginBlockBase\Blocks
+ * @package SebCmWpPluginBlockLibrary\Blocks
  */
 
 declare(strict_types=1);
 
-namespace AndbrandWpPluginBlockBase\Blocks;
+namespace SebCmWpPluginBlockLibrary\Blocks;
 
-use AndbrandWpPluginBlockBasePluginVendor\EightshiftLibs\Blocks\AbstractBlocks;
+use SebCmWpPluginBlockLibraryPluginVendor\EightshiftLibs\Blocks\AbstractBlocks;
 
 /**
  * Class Blocks
@@ -88,8 +88,8 @@ class Blocks extends AbstractBlocks
 			$categories,
 			[
 				[
-					'slug' => 'andbrand-block-library',
-					'title' => \esc_html__('andBRAND Block Library [compounds]', 'andbrand-plugin-block-library'),
+					'slug' => 'seb-block-library',
+					'title' => \esc_html__('SEB Block Library [compounds]', 'seb-plugin-block-library'),
 					'icon' => 'admin-settings',
 				],
 			]
@@ -115,22 +115,22 @@ class Blocks extends AbstractBlocks
 			$block_categories,
 			[
 				[
-					'slug' => 'andbrand-block-library-layout',
-					'title' => \esc_html__('andBRAND Block Library [Layout]', 'andbrand-plugin-block-library'),
+					'slug' => 'seb-block-library-layout',
+					'title' => \esc_html__('SEB Block Library [Layout]', 'seb-plugin-block-library'),
 					'icon' => 'admin-settings',
 				],
 			],
 			[
 				[
-					'slug' => 'andbrand-block-library-molecules',
-					'title' => \esc_html__('andBRAND Block Library [Molecules]', 'andbrand-plugin-block-library'),
+					'slug' => 'seb-block-library-molecules',
+					'title' => \esc_html__('SEB Block Library [Molecules]', 'seb-plugin-block-library'),
 					'icon' => 'admin-settings',
 				],
 			],
 			[
 				[
-					'slug' => 'andbrand-block-library-compounds',
-					'title' => \esc_html__('andBRAND Block Library [Compounds]', 'andbrand-plugin-block-library'),
+					'slug' => 'seb-block-library-compounds',
+					'title' => \esc_html__('SEB Block Library [Compounds]', 'seb-plugin-block-library'),
 					'icon' => 'admin-settings',
 				],
 			],
@@ -142,8 +142,8 @@ class Blocks extends AbstractBlocks
 	public function addReusableBlocks(): void
 	{
 		\add_menu_page( 
-			\esc_html__('Blocks', 'andbrand-plugin-block-library'), 
-			\esc_html__('Blocks', 'andbrand-plugin-block-library'),  
+			\esc_html__('Blocks', 'seb-plugin-block-library'), 
+			\esc_html__('Blocks', 'seb-plugin-block-library'),  
 			self::REUSEABLE_BLOCKS_CAPABILITY,
 			'edit.php?post_type=wp_block', 
 			'dashicons-editor-table', 

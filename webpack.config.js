@@ -21,7 +21,7 @@
 		config: {
 			projectDir: __dirname, // Current project directory absolute path.
 			projectUrl: 'andbrand.co.lndo.site', // Used for providing browsersync functionality.
-			projectPath: 'wp-content/plugins/andbrand-wp-plugin-block-base', // Project path relative to project root.
+			projectPath: 'wp-content/plugins/seb-cm-wp-plugin-block-library', // Project path relative to project root.
 		},
 	};
 

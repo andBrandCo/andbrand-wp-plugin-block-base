@@ -3,10 +3,10 @@
 /**
  * Template for the Card Block.
  *
- * @package AndbrandWpPluginBlockBase
+ * @package SebCmWpPluginBlockLibrary
  */
 
-use AndbrandWpPluginBlockBasePluginVendor\EightshiftLibs\Helpers\Components;
+use SebCmWpPluginBlockLibraryPluginVendor\EightshiftLibs\Helpers\Components;
 
 echo Components::render( // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 	'card',

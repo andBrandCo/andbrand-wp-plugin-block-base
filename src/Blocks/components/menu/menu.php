@@ -3,11 +3,11 @@
 /**
  * Menu component responsible for rendering and styling just the menu.
  *
- * @package AndbrandWpPluginBlockBase
+ * @package SebCmWpPluginBlockLibrary
  */
 
-use AndbrandWpPluginBlockBase\Menu\Menu;
-use AndbrandWpPluginBlockBasePluginVendor\EightshiftLibs\Helpers\Components;
+use SebCmWpPluginBlockLibrary\Menu\Menu;
+use SebCmWpPluginBlockLibraryPluginVendor\EightshiftLibs\Helpers\Components;
 
 $use = $attributes['use'] ?? true;
 

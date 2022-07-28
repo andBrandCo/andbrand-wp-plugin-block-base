@@ -2,15 +2,15 @@
 /**
  * Helpers for components
  *
- * @package AndbrandWpPluginBlockBase\Helpers
+ * @package SebCmWpPluginBlockLibrary\Helpers
  */
 
 declare(strict_types=1);
 
-namespace AndbrandWpPluginBlockBase\Helpers;
+namespace SebCmWpPluginBlockLibrary\Helpers;
 
-use AndbrandWpPluginBlockBase\Config\Config;
-use AndbrandWpPluginBlockBasePluginVendor\EightshiftLibs\Helpers\Components as LibsComponents;
+use SebCmWpPluginBlockLibrary\Config\Config;
+use SebCmWpPluginBlockLibraryPluginVendor\EightshiftLibs\Helpers\Components as LibsComponents;
 
 /**
  * Helpers for components

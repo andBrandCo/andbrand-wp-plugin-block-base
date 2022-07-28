@@ -3,7 +3,7 @@
 /**
  * Template for the Group block.
  *
- * @package AndbrandWpPluginBlockBase
+ * @package SebCmWpPluginBlockLibrary
  */
 
 $blockClass = $attributes['blockClass'] ?? '';

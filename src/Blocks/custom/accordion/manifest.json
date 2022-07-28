@@ -3,7 +3,7 @@
 	"blockName": "accordion",
 	"title": "Accordion",
 	"description" : "Accordion block with custom settings.",
-	"category": "andbrand-block-library-compounds",
+	"category": "seb-block-library-compounds",
 	"icon": {
 		"src": "es-accordion"
 	},

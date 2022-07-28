@@ -8,7 +8,7 @@
 
 declare(strict_types=1);
 
-namespace AndbrandWpPluginBlockBase\Helpers;
+namespace SebCmWpPluginBlockLibrary\Helpers;
 
 
 /**

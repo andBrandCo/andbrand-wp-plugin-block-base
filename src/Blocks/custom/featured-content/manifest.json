@@ -3,7 +3,7 @@
 	"blockName": "featured-content",
 	"title": "Featured Content",
 	"description" : "Block for selecting and displaying featured content",
-	"category": "andbrand-block-library-compounds",
+	"category": "seb-block-library-compounds",
 	"icon": {
 		"src": "es-featured-posts"
 	},

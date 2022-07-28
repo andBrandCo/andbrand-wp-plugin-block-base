@@ -3,14 +3,14 @@
 /**
  * The file that defines actions on plugin activation.
  *
- * @package AndbrandWpPluginBlockBase
+ * @package SebCmWpPluginBlockLibrary
  */
 
 declare(strict_types=1);
 
-namespace AndbrandWpPluginBlockBase;
+namespace SebCmWpPluginBlockLibrary;
 
-use AndbrandWpPluginBlockBasePluginVendor\EightshiftLibs\Plugin\HasActivationInterface;
+use SebCmWpPluginBlockLibraryPluginVendor\EightshiftLibs\Plugin\HasActivationInterface;
 
 /**
  * The plugin activation class.

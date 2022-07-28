@@ -6,14 +6,14 @@
  * A class definition that includes attributes and functions used across both the
  * public side of the site and the admin area.
  *
- * @package AndbrandWpPluginBlockBase\Config
+ * @package SebCmWpPluginBlockLibrary\Config
  */
 
 declare(strict_types=1);
 
-namespace AndbrandWpPluginBlockBase\Config;
+namespace SebCmWpPluginBlockLibrary\Config;
 
-use AndbrandWpPluginBlockBasePluginVendor\EightshiftLibs\Config\AbstractConfigData;
+use SebCmWpPluginBlockLibraryPluginVendor\EightshiftLibs\Config\AbstractConfigData;
 
 /**
  * The project config class.

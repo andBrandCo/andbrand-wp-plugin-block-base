@@ -3,7 +3,7 @@
 	"blockName": "columns",
 	"title": "Columns",
 	"description" : "Columns block with custom settings.",
-	"category": "andbrand-block-library-layout",
+	"category": "seb-block-library-layout",
 	"icon": {
 		"src": "es-columns"
 	},
@@ -17,13 +17,13 @@
 		},
 		"innerBlocks": [
 			{
-				"name": "andbrand-block-library/column",
+				"name": "seb-block-library/column",
 				"attributes": {
 					"columnWidthLarge": 4
 				},
 				"innerBlocks": [
 					{
-						"name": "andbrand-block-library/card",
+						"name": "seb-block-library/card",
 						"attributes": {
 							"cardCardImageUrl": "https://picsum.photos/400/400",
 							"cardCardIntroContent": "Intro",
@@ -37,13 +37,13 @@
 				]
 			},
 			{
-				"name": "andbrand-block-library/column",
+				"name": "seb-block-library/column",
 				"attributes": {
 					"columnWidthLarge": 4
 				},
 				"innerBlocks": [
 					{
-						"name": "andbrand-block-library/card",
+						"name": "seb-block-library/card",
 						"attributes": {
 							"cardCardImageUrl": "https://picsum.photos/400/400",
 							"cardCardIntroContent": "Intro",
@@ -57,13 +57,13 @@
 				]
 			},
 			{
-				"name": "andbrand-block-library/column",
+				"name": "seb-block-library/column",
 				"attributes": {
 					"columnWidthLarge": 4
 				},
 				"innerBlocks": [
 					{
-						"name": "andbrand-block-library/card",
+						"name": "seb-block-library/card",
 						"attributes": {
 							"cardCardImageUrl": "https://picsum.photos/400/400",
 							"cardCardIntroContent": "Intro",
@@ -86,7 +86,7 @@
 				"type": "string"
 			},
 			"default": [
-				"andbrand-block-library/column"
+				"seb-block-library/column"
 			]
 		},
 

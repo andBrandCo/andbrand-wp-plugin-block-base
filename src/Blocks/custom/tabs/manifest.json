@@ -3,7 +3,7 @@
 	"title": "Tabs",
 	"tabClass": "block-tab",	
 	"description" : "Simple tabs block",
-	"category": "andbrand-block-library-compounds",
+	"category": "seb-block-library-compounds",
 	"icon": {
 		"src": "es-tabs"
 	},
@@ -18,7 +18,7 @@
 				"type": "string"
 			},
 			"default": [
-				"andbrand-block-library/tab"
+				"seb-block-library/tab"
 			]
 		},
 		"tabsCurrentlyActiveTabId": {

@@ -6,14 +6,14 @@
  * A class definition that includes attributes and functions used across both the
  * theme-facing side of the site and the admin area.
  *
- * @package AndbrandWpPluginBlockBase\Main
+ * @package SebCmWpPluginBlockLibrary\Main
  */
 
 declare(strict_types=1);
 
-namespace AndbrandWpPluginBlockBase\Main;
+namespace SebCmWpPluginBlockLibrary\Main;
 
-use AndbrandWpPluginBlockBasePluginVendor\EightshiftLibs\Main\AbstractMain;
+use SebCmWpPluginBlockLibraryPluginVendor\EightshiftLibs\Main\AbstractMain;
 
 /**
  * The main start class.

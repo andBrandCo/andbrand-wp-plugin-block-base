@@ -3,14 +3,14 @@
 /**
  * The file that defines actions on plugin deactivation.
  *
- * @package AndbrandWpPluginBlockBase
+ * @package SebCmWpPluginBlockLibrary
  */
 
 declare(strict_types=1);
 
-namespace AndbrandWpPluginBlockBase;
+namespace SebCmWpPluginBlockLibrary;
 
-use AndbrandWpPluginBlockBasePluginVendor\EightshiftLibs\Plugin\HasDeactivationInterface;
+use SebCmWpPluginBlockLibraryPluginVendor\EightshiftLibs\Plugin\HasDeactivationInterface;
 
 /**
  * The plugin deactivation class.

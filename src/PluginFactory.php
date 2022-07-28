@@ -3,12 +3,12 @@
 /**
  * The file that defines a factory for activating / deactivating plugin.
  *
- * @package AndbrandWpPluginBlockBase
+ * @package SebCmWpPluginBlockLibrary
  */
 
 declare(strict_types=1);
 
-namespace AndbrandWpPluginBlockBase;
+namespace SebCmWpPluginBlockLibrary;
 
 /**
  * The plugin factory class.

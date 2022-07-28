@@ -3,7 +3,7 @@
 	"blockName": "column",
 	"title": "Column",
 	"description" : "Column block with custom settings.",
-	"category": "andbrand-block-library-layout",
+	"category": "seb-block-library-layout",
 	"icon": {
 		"src": "es-column"
 	},
@@ -11,7 +11,7 @@
 		"column"
 	],
 	"parent": [
-		"andbrand-block-library/columns"
+		"seb-block-library/columns"
 	],
 	"example": {
 		"attributes": {
@@ -20,7 +20,7 @@
 		},
 		"innerBlocks": [
 			{
-				"name": "andbrand-block-library/card",
+				"name": "seb-block-library/card",
 				"attributes": {
 					"cardCardImageUrl": "https://loremflickr.com/800/800",
 					"cardCardIntroContent": "Intro",

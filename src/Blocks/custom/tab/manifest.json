@@ -2,7 +2,7 @@
 	"blockName": "tab",
 	"title": "Tab",
 	"description" : "Tab block with custom settings.",
-	"category": "andbrand-block-library-compounds",
+	"category": "seb-block-library-compounds",
 	"icon": {
 		"src": "es-tab"
 	},
@@ -10,12 +10,12 @@
 		"tab"
 	],
 	"parent": [
-		"andbrand-block-library/tabs"
+		"seb-block-library/tabs"
 	],
 	"example": {
 		"innerBlocks": [
 			{
-				"name": "andbrand-block-library/card",
+				"name": "seb-block-library/card",
 				"attributes": {
 					"imageUrl": "https://loremflickr.com/800/800",
 					"introContent": "Intro",

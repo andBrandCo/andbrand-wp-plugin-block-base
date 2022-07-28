@@ -6,7 +6,7 @@
  * @package EightshiftBoilerplate
  */
 
-use AndbrandWpPluginBlockBasePluginVendor\EightshiftLibs\Helpers\Components;
+use SebCmWpPluginBlockLibraryPluginVendor\EightshiftLibs\Helpers\Components;
 
 $items = $attributes['items'] ?? [];
 

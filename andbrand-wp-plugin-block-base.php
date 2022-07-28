@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Plugin Name: AndBrand Wp Plugin Block Base
+ * Plugin Name: Seb Cm Wp Plugin Block Library
  * Plugin URI:
  * Description: Base Wordpress Block Plugin for &BRAND Projects
  * Author: Team Eightshift
@@ -9,15 +9,15 @@
  * Version: 3.0.0
  * Text Domain: andbrand-wp-plugin-block-base
  *
- * @package AndbrandWpPluginBlockBase
+ * @package SebCmWpPluginBlockLibrary
  */
 
 declare(strict_types=1);
 
-namespace AndbrandWpPluginBlockBase;
+namespace SebCmWpPluginBlockLibrary;
 
-use AndbrandWpPluginBlockBase\Main\Main;
-use AndbrandWpPluginBlockBasePluginVendor\EightshiftLibs\Cli\Cli;
+use SebCmWpPluginBlockLibrary\Main\Main;
+use SebCmWpPluginBlockLibraryPluginVendor\EightshiftLibs\Cli\Cli;
 
 /**
  * If this file is called directly, abort.
