@@ -1,15 +1,13 @@
-![image](https://user-images.githubusercontent.com/77000136/146530354-49f5cb7c-77d0-4518-b208-6599931c5a03.png#gh-light-mode-only)
-![image](https://user-images.githubusercontent.com/77000136/146530367-c03912bc-367d-44a1-9a22-b8d22915acfa.png#gh-dark-mode-only)
+<p>
+	<img alt="International Student Logo" src="./assets/images/logo.svg" />
+</p>
 
-[![GitHub tag](https://img.shields.io/github/tag/infinum/andbrand-wp-plugin-block-base.svg?style=for-the-badge)](https://github.com/infinum/andbrand-wp-plugin-block-base)
-[![GitHub stars](https://img.shields.io/github/stars/infinum/andbrand-wp-plugin-block-base.svg?style=for-the-badge&label=Stars)](https://github.com/infinum/andbrand-wp-plugin-block-base/)
-[![license](https://img.shields.io/github/license/infinum/andbrand-wp-plugin-block-base.svg?style=for-the-badge)](https://github.com/infinum/andbrand-wp-plugin-block-base)
+# International Student WordPress Theme Block Base FSE
 
-# Eightshift WordPress Boilerplate Plugin
-
-This repository contains all the tools you need to start building a modern WordPress plugin, using all the latest front end development tools.
+This repository contains all the tools you need to start building a modern WordPress project, using all the latest front end development tools.
 
 ## :books: Table of contents
+
 - [:mortar_board: Documentation](#documentation)
 - [:tada: Awesome features](#awesome-features)
 - [:school_satchel: Requirements](#requirements)
@@ -18,11 +16,12 @@ This repository contains all the tools you need to start building a modern WordP
 - [:scroll: License](#license)
 
 ## Documentation
-**For more documentation details follow [this link](https://infinum.github.io/eightshift-docs).**
+
+**For more documentation details follow [this link](https://gitlab.com/rolostudios-international-student/rolostudios-documentation-international-student).**
 
 ## Awesome features
 
-Here are some buzzwords why you should use Eightshift Boilerplate for your next project. For more documentation details follow [this link](https://infinum.github.io/eightshift-docs).
+Here are some buzzwords why you should use Eightshift Boilerplate for your next project. For more documentation details follow [this link](https://gitlab.com/rolostudios-international-student/rolostudios-documentation-international-student).
 
 - Custom Block Editor blocks
 - OOP
@@ -41,22 +40,86 @@ Here are some buzzwords why you should use Eightshift Boilerplate for your next 
 
 ## Requirements
 
-You can find all requirements on [this link](https://infinum.github.io/eightshift-docs/docs/requirements).
+You can find all requirements on [this link](https://gitlab.com/rolostudios-international-student/rolostudios-documentation-international-student).
 
 ## Quick start
 
-You can find all steps necessary to start you project on [this link](https://infinum.github.io/eightshift-docs/docs/plugin).
+```bash
+git clone git@gitlab.com:rolostudios-international-student/rolostudios-wp-theme-block-international-student.git
+```
+
+or
+
+```bash
+git clone https://gitlab.com/rolostudios-international-student/rolostudios-wp-theme-block-international-student.git
+```
+
+```bash
+composer install
+```
+
+```bash
+npm install
+```
+
+```bash
+npm run start
+```
+
+##Handy CLI commands
+
+Generates Basic Service Class
+--folder='/YourFolder' Relative to src
+--title='your title'
+
+```bash
+wp theme-construct create_service_example
+```
+
+Generates Basic Pattern
+--title='your title'
+
+```bash
+wp theme-construct create_block_pattern
+```
+
+Copy Block from library to your project
+--name=block-name
+
+```bash
+wp theme-construct use_block
+```
+
+Copy Component from library to your project
+--name=component-name
+
+```bash
+wp theme-construct use_component
+```
+
+Help
+--help
+
+```bash
+wp theme-construct --help
+```
+
+##caveats
+WP 5.9 currently has this known bug https://github.com/WordPress/gutenberg/issues/35560 & https://github.com/WordPress/theme-experiments/issues/261
 
 ## Documentation
-**For the full documentation please check this [link](https://infinum.github.io/eightshift-docs).**
+
+**For the full documentation please check this [link](https://gitlab.com/rolostudios-international-student/rolostudios-documentation-international-student).**
 
 ## Who do I talk to?
 
-If you have any questions or problems, please [open an issue](https://github.com/infinum/andbrand-wp-plugin-block-base-plugin/issues) on github and we will do our best to give you a timely answer.
+If you have any questions or problems, please [open an issue](https://gitlab.com/rolostudios-international-student/rolostudios-wp-theme-block-international-student/-/issues) on github and we will do our best to give you a timely answer.
 
 ## Maintainers
-Eightshift Boilerplate is maintained and sponsored by
-[Eightshift](https://eightshift.com) and [Infinum](https://infinum.com).
+
+International Student WordPress Theme Block FSE is maintained and sponsored by
+[MPower Financing](https://www.mpowerfinancing.com) and [Rolo Stodios](https://www.rolostudios.com/).
 
 ## License
-Eightshift Boilerplate &copy;2022 [Eightshift](https://eightshift.com) and [Infinum](https://infinum.com). It is free software, and may be redistributed under the terms specified in the LICENSE file.
+
+International Student WordPress Theme Block FSE &copy;2022 [MPower Financing](https://www.mpowerfinancing.com) and [Rolo Stodios](https://www.rolostudios.com/).
